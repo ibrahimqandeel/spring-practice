@@ -1,4 +1,4 @@
-package code.messaging.producer.activemq;
+package code.practice.messaging.activemq;
 
 import javax.jms.Queue;
 

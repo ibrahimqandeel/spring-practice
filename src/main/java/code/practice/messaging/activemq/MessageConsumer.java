@@ -1,4 +1,4 @@
-package code.messaging.producer.activemq;
+package code.practice.messaging.activemq;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +24,11 @@ public class MessageConsumer {
 
     @JmsListener(destination = "activeMQ-topic")
     public void listener3(String message) {
+        logger.info("Message received {} ", message);
+    }
+
+    @JmsListener(destination = "activeMQ-topic")
+    public void listener4(String message) {
         logger.info("Message received {} ", message);
     }
 }

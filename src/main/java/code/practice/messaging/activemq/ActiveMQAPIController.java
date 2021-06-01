@@ -1,4 +1,4 @@
-package code.messaging.producer.activemq;
+package code.practice.messaging.activemq;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
